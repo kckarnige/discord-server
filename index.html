@@ -3,21 +3,73 @@
 <title>Kayotic Server - Server Agreements</title>
 <link rel="icon" type="image/ico" href="https://kckarnige.github.io/res/favicon.ico">
 <style>
-body {
+html, body {
    font-family: Arial, Helvetica, sans-serif;
+   color: #ffffff;
+}
+a {
+   color: #ffffff;
+}
+footer {
+  position: fixed;
+  right: 0;
+  bottom: 2;
+  left: 0;
+  width: 100%;
+  color: #7e7e7e;
+  text-align: center;
+  font-size: 13px;
+  line-height: 0.4;
+}
+header {
+  position: fixed;
+  right: 0;
+  top: 2;
+  left: 0;
+  width: 100%;
+  color: #7e7e7e;
+  text-align: center;
+  font-size: 13px;
+  line-height: 0.4;
+}
+.center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%) }
+}
+.join {
+  font-family: Arial, Helvetica, sans-serif;
+  -o-transition:.2s;-ms-transition:.2s;-moz-transition:.2s;-webkit-transition:.2s;transition:.2s;text-decoration: none;user-select: none;font-size:150%;
+}
+.join:hover {
+  font-family: Arial, Helvetica, sans-serif;
+  -o-transition:.2s;
+  -ms-transition:.2s;
+  -moz-transition:.2s;
+  -webkit-transition:.2s;
+  transition:.2s;
+  color: #b9c1cc;
+  text-decoration: none;
+  user-select: none;
+  font-size:150%;
+}
 </style>
 </head>
 <body style="background-color: #333333">
-<div style="text-align: center">
-<img src="images/kayotic.png" height="40%" width="40%">
-</div>
+<header>
+<img src="images/kayotic.png" width="40%">
+</header>
+<span class="center">
 <p style="text-align: center;"><span style="color: #ffffff;">By clicking the link below, you imply that you are 13 or older, and accept the </span><a style="color:#d7dbe0;text-decoration:none;" href="https://discord.com/terms">Discord Terms of Service</a></p>
 <div style="text-align: center;">
-<div style="text-align: center;"><a style="color:#d7dbe0;text-decoration:none;" href="https://discord.gg/rCWFs3w">Join Kayotic Server</a></div>
-<br>
-<br>
+<a class="join" style="-o-transition:.2s;-ms-transition:.2s;-moz-transition:.2s;-webkit-transition:.2s;transition:.2s;text-decoration: none;user-select: none;font-size:150%;" href="https://discord.gg/rCWFs3w">Join Kayotic Server</a>
 </div>
-<div style="text-align: center">
-<img src="images/server.png"  height="40%" width="40%">
-</div>
-</body></html>
+</span>
+<footer>
+<img src="images/server.png" width="40%">
+</footer>
+</body>
+</html>
